@@ -21,3 +21,4 @@ console.log (whatWillhappen);
 let isGameover = false;
 
 console.log(isGameover, typeof isGameover);
+
