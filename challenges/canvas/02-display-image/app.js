@@ -19,7 +19,7 @@ const context = canvas.getContext("2d");
 	https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
 */
 
-// Add your new variable here, using the document.getElementById() method.
+// getElmentById("canvas")
 
 /* 
 	Once you have a variable that points to your HTML image, you can now
@@ -32,7 +32,7 @@ const context = canvas.getContext("2d");
 	variable is an HTMLImageElement.
 */
 
-// Add some code here to call the drawImage method of the context variable
+// context.drawImage(triangle, 0, 0);
 // HINT: this will look something like context.drawImage(yourImageVariableName, 0, 0);
 
 /* 
@@ -49,8 +49,7 @@ const context = canvas.getContext("2d");
 	Place a couple images and see how they overlap.
 */
 
-// Add some code here to call the drawImage method of the context variable again
-// with different dx and dy values.
+// drawImage(triangle, 2, 4)
 
 /* 
 	Now that you are familiar with the basic drawImage method, checkout 
